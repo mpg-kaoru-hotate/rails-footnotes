@@ -1,6 +1,17 @@
 = Rails Footnotes
 
-{<img src="https://travis-ci.org/josevalim/rails-footnotes.svg" />}[https://travis-ci.org/josevalim/rails-footnotes]
+== How to use
+[example](https://github.com/medpeer-dev/open-clinic-rails/pull/991/commits/3d0c4f3902bf1b71ebf01e1633096aac674608f6)
+
+1. Add Rails Footnotes to Gemfile
+    gem 'rails-footnotes', git: 'https://github.com/mpg-kaoru-hotate/rails-footnotes.git'
+
+1. Bundle install
+
+1. Run the generator
+    rails generate rails_footnotes:install  
+
+== About
 
 Rails footnotes displays footnotes in your application for easy debugging, such as sessions,
 request parameters, cookies, filter chain, routes, queries, etc.
